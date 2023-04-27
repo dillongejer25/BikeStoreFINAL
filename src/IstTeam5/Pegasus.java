@@ -1,6 +1,6 @@
 package IstTeam5;
 /**Class Pegasus inherits from Product class
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 
 public class Pegasus extends Product{

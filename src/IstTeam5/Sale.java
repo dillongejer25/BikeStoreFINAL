@@ -1,6 +1,7 @@
 package IstTeam5;
 /** Sale Class consist of total Sale, Discount, and Tax in different State
- * @author Parth Patel
+ * @author DIllon Gejer
+ * NOT WORKING - at this time
  */
 
 public class Sale {

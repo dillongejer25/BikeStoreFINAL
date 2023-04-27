@@ -1,6 +1,6 @@
 package IstTeam5;
 /**Class Trek inherits from Product class
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 public class Trek extends Product{
     private String name;

@@ -1,7 +1,7 @@
 package IstTeam5;
 
 /**Class Cash inherits from Payment class
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 public class Cash extends Payment {
 

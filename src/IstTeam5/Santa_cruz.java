@@ -1,6 +1,6 @@
 package IstTeam5;
 /**Class Santa_cruz inherits from Product class
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 public class Santa_cruz extends Product{
     private String name;

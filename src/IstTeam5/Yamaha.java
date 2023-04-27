@@ -1,6 +1,6 @@
 package IstTeam5;
 /**Class Yamaha inherits from Product class
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 public class Yamaha extends Product{
     private String name;

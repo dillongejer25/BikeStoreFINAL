@@ -1,6 +1,6 @@
 package IstTeam5;
 /**
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 
 /**Property for Store Class

@@ -1,6 +1,6 @@
 package IstTeam5;
 /**Class kawasaki_Ninja inherits from Product class
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 
 public class Kawasaki_Ninja extends Product{

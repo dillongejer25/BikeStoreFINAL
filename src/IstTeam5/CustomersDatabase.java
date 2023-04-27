@@ -10,7 +10,7 @@ public class CustomersDatabase {
 
         readAllSQL();
         readByIdSQL(1);
-        Customer cust = new Customer("peter", "Patel", "patel.peter80@gmail.com", "267-757-3500");
+        Customer cust = new Customer("Dillon", "Gejer", "dillongej2340@gmail.com", "444-324-2344");
         createSQL(6, cust);
         updateSQL(6, cust);
         deleteSQL(6);
@@ -26,7 +26,7 @@ public class CustomersDatabase {
         try {
             // Here, "BikeStore" is the database name, "root" is the username and "password" is the password
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Priyank#12");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Classic23$");
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT * FROM customers");
             while (rs.next()) {
@@ -47,7 +47,7 @@ public class CustomersDatabase {
         try {
             // Here, "Bike Store" is the database name, "root" is the username and "password" is the password
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Priyank#12");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Classic23$");
             PreparedStatement ps = con.prepareStatement("SELECT * FROM customers WHERE id = ?");
             ps.setInt(1, id);
             ResultSet rs = ps.executeQuery();
@@ -68,7 +68,7 @@ public class CustomersDatabase {
         try {
             // Here, "Bike Store" is the database name, "root" is the username and "password" is the password
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Priyank#12");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Classic23$");
             PreparedStatement ps = con.prepareStatement("INSERT INTO customers (id, first_name, last_name, email, phone) " +
                     "VALUES ( ?, ?, ?, ?)");
             ps.setString(1, cust.getFirst_name());
@@ -84,7 +84,7 @@ public class CustomersDatabase {
         try {
             // Here, "Bike Store" is the database name, "root" is the username and "password" is the password
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Priyank#12");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Classic23$");
             PreparedStatement ps = con.prepareStatement("UPDATE customers SET first_name = ?, last_name = ?, email = ?, " +
                     "phone = ? WHERE id = ?");
             ps.setString(1, cust.getFirst_name());
@@ -101,7 +101,7 @@ public class CustomersDatabase {
         try {
             // Here, "BikeStore" is the database name, "root" is the username and "password" is the password
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Priyank#12");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Classic23$");
             PreparedStatement ps = con.prepareStatement("INSERT INTO customers (first_name, last_name, email, phone) " +
                     "VALUES ( ?, ?, ?, ?)");
             ps.setString(1, customer.getFirst_name());
@@ -122,7 +122,7 @@ public class CustomersDatabase {
         try {
             // Here, "Bike Store" is the database name, "root" is the username and "password" is the password
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Priyank#12");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/BkStores4", "root", "Classic23$");
             PreparedStatement ps = con.prepareStatement("DELETE FROM customers WHERE id = ?");
             ps.setInt(1, id);
             ps.executeUpdate();

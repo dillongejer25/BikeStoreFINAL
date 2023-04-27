@@ -1,7 +1,7 @@
 package IstTeam5;
 
 /** Class to be used to create Product object for the BikeStore
- * @author parth
+ * @author Dillon Gejer
  */
 
 /**Class Product Properties

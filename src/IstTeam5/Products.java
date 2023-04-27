@@ -1,7 +1,7 @@
 package IstTeam5;
 
 /** Products List
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 
 public enum Products { Pegasus, Kawasaki_Ninja, Santa_cruz, Yamaha, Trek

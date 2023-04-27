@@ -1,7 +1,7 @@
 package IstTeam5;
 
 /** Check on the Credit Card number
- * @author Parth Patel
+ * @author Dillon Gejer
  */
 public class Luhn {
 
