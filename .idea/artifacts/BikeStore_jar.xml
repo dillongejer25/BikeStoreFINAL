@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BikeStore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BikeStore_jar</output-path>
+    <root id="archive" name="BikeStore.jar">
+      <element id="module-output" name="BikeStore" />
+    </root>
+  </artifact>
+</component>
